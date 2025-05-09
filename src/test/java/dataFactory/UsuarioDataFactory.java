@@ -6,7 +6,7 @@ import pojo.UsuarioPojo;
 import static io.restassured.RestAssured.given;
 
 public class UsuarioDataFactory {
-    public static String obterTokenDeUsuario(){
+    public static String criarUsuarioAdmin(){
         UsuarioPojo usuario = new UsuarioPojo();
 
         usuario.setUsuarioLogin("admin");
